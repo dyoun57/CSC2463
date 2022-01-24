@@ -47,7 +47,7 @@ function draw() {
   vertex(172, 173); 
   endShape();
 
-  fill(255, 255, 255);
-  text("("+mouseX+","+mouseY+")", mouseX, mouseY);
+  //fill(255, 255, 255);
+  //text("("+mouseX+","+mouseY+")", mouseX, mouseY);
   
 }
