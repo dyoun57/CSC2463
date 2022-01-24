@@ -13,6 +13,8 @@ function draw() {
   fill(35, 140, 11);
   circle(200, 200, 190);
   
+  
+  //Inner  star
   fill(255);
   noStroke();
   beginShape();
@@ -28,6 +30,8 @@ function draw() {
   vertex(168, 170); 
   endShape();
 
+  
+  //Outer Star
   fill(237, 34, 93);
   noStroke();
   beginShape();
