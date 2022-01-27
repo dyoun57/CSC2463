@@ -1,7 +1,9 @@
 
 let color;
 let y = 0;
-function setup() {
+
+function setup() 
+{
   createCanvas(1250, 1000);
   color = 0;
 }
@@ -58,6 +60,7 @@ function draw() {
   function mouseClicked()
   {
     push();
+    
     if(mouseX < 30)
       {
         if (mouseY > 0 && mouseY < 30)
@@ -99,16 +102,17 @@ function draw() {
           color = 'white';
         }
       }
+    
       pop();
   }
 
   function coloring()
   {
+    
     push();
     strokeWeight(7);
     stroke(color);
     line(pmouseX, pmouseY, mouseX, mouseY);
     pop();
-    
-    
+
   }
