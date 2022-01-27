@@ -23,7 +23,11 @@ Example 4/ Star in Circle (needs improvment): https://dyoun57.github.io/CSC2463/
 -----------------
 Homework 2
 
-Paint App
+Paint App: https://dyoun57.github.io/CSC2463/CSC%20HW/Paint%20App/
+
+*Use It To Paint :)*
+
+-----------------
 
 
 
