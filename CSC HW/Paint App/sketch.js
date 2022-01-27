@@ -49,7 +49,7 @@ function draw() {
           mouseClicked();
           coloring();
         }
-      else if (mouseY > 330) 
+      else if (mouseY > 300) 
       {
         mouseClicked();
         coloring();
