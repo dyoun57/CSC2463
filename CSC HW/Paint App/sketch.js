@@ -1,15 +1,28 @@
 
-let color;
+let color = 0;
 let y = 0;
+let button;
 
-function setup() 
-{
-  createCanvas(1250, 1000);
-  color = 0;
+let x = 6;
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  button = createButton('Reset Canvas');
+  button.position(windowHeight - 102, 0);
+  button.mousePressed(resetSketch);
+
+  button = createButton('Brush Size Up');
+  button.position(windowHeight, 0);
+  button.mousePressed(brushSizeUp);
+
+  button = createButton('Brush Size Down');
+  button.position(windowHeight + 102, 0);
+  button.mousePressed(brushSizeDown);
+  
 }
 
 function draw() {
 
+  // Belwo is the color pallet that shows on the left han side of the screen.
   fill('red');
   rect(0 , y, 30, 30);
   
@@ -44,26 +57,26 @@ function draw() {
     
   if(mouseIsPressed)
     {
-      if(mouseX > 30)
+      if(mouseX > 30) // makes it so that you cant paint under the color pallet 
         {
           mouseClicked();
           coloring();
         }
-      else if (mouseY > 300) 
+      else if (mouseY > 330) // makes it so that you can paint below the color pallet 
       {
         mouseClicked();
         coloring();
       } 
     }
+
+
 }
 
-  function mouseClicked()
-  {
-    push();
-    
+  function mouseClicked(){
+    push();             // the if, else of statmenst below change the color based on if the mouse is clciked at certain (x,y) cordinate based on the color box
     if(mouseX < 30)
       {
-        if (mouseY > 0 && mouseY < 30)
+        if (mouseY > 0 && mouseY < 33)
           color = 'red';
         else if (mouseY > 33 && mouseY < 33 * 2)
         {
@@ -102,17 +115,38 @@ function draw() {
           color = 'white';
         }
       }
-    
       pop();
   }
 
-  function coloring()
-  {
-    
+// Funciton to make the line appear when the mouse is clicked
+  function coloring(){
     push();
-    strokeWeight(7);
+    
+    strokeWeight(x);
     stroke(color);
     line(pmouseX, pmouseY, mouseX, mouseY);
     pop();
+    
+  }
+
+  //function below clears the canvas 
+  function resetSketch(){
+    clear();
+  }
+
+  function brushSizeUp(){
+
+    if(x < 10)
+
+    x++;
+
+  }
+
+  function brushSizeDown() {
+    if ( x > 1)
+    {
+      x--;
+    }
+
 
   }
