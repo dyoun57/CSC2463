@@ -21,7 +21,7 @@ Example 3/ Pac-Man and Red Ghost: https://dyoun57.github.io/CSC2463/CSC%20HW/Exa
 Example 4/ Star in Circle (needs improvment): https://dyoun57.github.io/CSC2463/CSC%20HW/Example%204/
 
 -----------------
-# Homework 2:
+## Homework 2:
 
 Paint App: https://dyoun57.github.io/CSC2463/CSC%20HW/Paint%20App/
 
