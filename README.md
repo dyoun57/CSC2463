@@ -28,18 +28,18 @@ For my project I decided to make a simple piong game. The main idea of the pong 
 
 The arduino Uno was used so that the pong paddle could be controlled by a joystick along with a buzzer that will sound if the pong ball hits the outer bounds. In order for the joystick to move the paddle I had to map the values recived from the arduino to p5 using the Map() function. In order to get the buzzer to work, I sent the word > buzzer < and passing a value used for how long the buzzer shoudl stay active.
 
-# Schematic 
+###### Schematic 
 These two images give a detailed look at how my aurdino was set up to get the physical components working. 
 
 ![Joystic](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcreate.arduino.cc%2Fprojecthub%2FMinukaThesathYapa%2Farduino-thumb-joystick-to-processing-92c182&psig=AOvVaw0wzzgJYeZxxUohbujTLLk9&ust=1652447523028000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIi19O6E2vcCFQAAAAAdAAAAABAD).
 
 ![Buzzer](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.programmingelectronics.com%2Fan-easy-way-to-make-noise-with-arduino-using-tone%2F&psig=AOvVaw0mtjgWmXCLakaxwEhIJbdD&ust=1652447375955000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDl46iE2vcCFQAAAAAdAAAAABAD).
 
-**## Workign Product**
+## Working Product
 
 ![Video Link](https://youtu.be/MdHQmXUbjaA).
 
-**## Further Development** 
+## Further Development 
 Developing this project further, I think I would make it a multiplayer game.I would add anothe rpaddle controlled maybe by the keyboard arrows; and have players play against each other for a set amount of time. 
 
 
