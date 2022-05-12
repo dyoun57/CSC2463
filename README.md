@@ -31,7 +31,7 @@ The arduino Uno was used so that the pong paddle could be controlled by a joysti
 ###### Schematic 
 These two images give a detailed look at how my aurdino was set up to get the physical components working. 
 
-Joystic (https://www.google.com/url?sa=i&url=https%3A%2F%2Fcreate.arduino.cc%2Fprojecthub%2FMinukaThesathYapa%2Farduino-thumb-joystick-to-processing-92c182&psig=AOvVaw0wzzgJYeZxxUohbujTLLk9&ust=1652447523028000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIi19O6E2vcCFQAAAAAdAAAAABAD).
+![Joystic] (/CSC2463/joystick.avif).
 
 Buzzer (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.programmingelectronics.com%2Fan-easy-way-to-make-noise-with-arduino-using-tone%2F&psig=AOvVaw0mtjgWmXCLakaxwEhIJbdD&ust=1652447375955000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDl46iE2vcCFQAAAAAdAAAAABAD).
 
