@@ -30,6 +30,7 @@ The arduino Uno was used so that the pong paddle could be controlled by a joysti
 
 ###### Schematic 
 These two images give a detailed look at how my aurdino was set up to get the physical components working. 
+
 **Joystick**
 
 ![Joystick](Joysitck.avif).
