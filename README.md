@@ -38,7 +38,6 @@ These two images give a detailed look at how my aurdino was set up to get the ph
 
 
 
-
 **Buzzer**
 ![Buzzer](buzzer.png).
 
