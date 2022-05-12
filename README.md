@@ -7,15 +7,15 @@ dyoun57@lsu.edu
 CCS 2463 2022
 
 
-**# Project Documentation** 
+ # Project Documentation  
 
 5/12/2022
 
-**## Proejct Outline**
+## Proejct Outline
 
 For my project I decided to make a simple piong game. The main idea of the pong game is for their to be a paddle that hits a ball, causing it do hit off in different directions. In addition to the graphical aspect of my project, which uses P5.js, I used Tone.js to import sounds and also using the arduino to control physical inputs as well as having information transmitted to the Arudino from P5
 
-**# Features**
+# Features
 1. Paddle controleld by joystick. 
 2. Dynamic Movement of the ball.
 3. Timer. 
@@ -24,7 +24,7 @@ For my project I decided to make a simple piong game. The main idea of the pong 
 6. have a Tone sound whenver ball is hit. 
 
 
-**## Using the Arduino**
+## Using the Arduino
 
 The arduino Uno was used so that the pong paddle could be controlled by a joystick along with a buzzer that will sound if the pong ball hits the outer bounds. In order for the joystick to move the paddle I had to map the values recived from the arduino to p5 using the Map() function. In order to get the buzzer to work, I sent the word > buzzer < and passing a value used for how long the buzzer shoudl stay active.
 
@@ -36,6 +36,7 @@ These two images give a detailed look at how my aurdino was set up to get the ph
 ![Buzzer](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.programmingelectronics.com%2Fan-easy-way-to-make-noise-with-arduino-using-tone%2F&psig=AOvVaw0mtjgWmXCLakaxwEhIJbdD&ust=1652447375955000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDl46iE2vcCFQAAAAAdAAAAABAD).
 
 **## Workign Product**
+
 ![Video Link](https://youtu.be/MdHQmXUbjaA).
 
 **## Further Development** 
