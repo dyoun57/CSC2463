@@ -26,7 +26,7 @@ For my project I decided to make a simple piong game. The main idea of the pong 
 
 ## Using the Arduino
 
-The arduino Uno was used so that the pong paddle could be controlled by a joystick along with a buzzer that will sound if the pong ball hits the outer bounds. In order for the joystick to move the paddle I had to map the values recived from the arduino to p5 using the Map() function. In order to get the buzzer to work, I sent the word > buzzer < and passing a value used for how long the buzzer shoudl stay active.
+The arduino Uno was used so that the pong paddle could be controlled by a joystick along with a buzzer that will sound if the pong ball hits the outer bounds. In order for the joystick to move the paddle I had to map the values recived from the arduino to p5 using the Map() function. In order to get the buzzer to work, I sent the word > buzzer  and passing a value used for how long the buzzer shoudl stay active.
 
 ###### Schematic 
 These two images give a detailed look at how my aurdino was set up to get the physical components working. 
