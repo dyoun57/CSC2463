@@ -37,7 +37,7 @@ These two images give a detailed look at how my aurdino was set up to get the ph
 
 ## Working Product
 
-https://youtu.be/MdHQmXUbjaA
+![Video](https://youtu.be/MdHQmXUbjaA)
 
 ## Further Development 
 Developing this project further, I think I would make it a multiplayer game.I would add anothe rpaddle controlled maybe by the keyboard arrows; and have players play against each other for a set amount of time. 
