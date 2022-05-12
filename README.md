@@ -35,7 +35,7 @@ These two images give a detailed look at how my aurdino was set up to get the ph
 ![Joystick](Joysitck.avif).
 
 **Buzzer**
-(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.programmingelectronics.com%2Fan-easy-way-to-make-noise-with-arduino-using-tone%2F&psig=AOvVaw0mtjgWmXCLakaxwEhIJbdD&ust=1652447375955000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDl46iE2vcCFQAAAAAdAAAAABAD).
+![Buzzer](buzzer.png).
 
 ## Working Product
 
